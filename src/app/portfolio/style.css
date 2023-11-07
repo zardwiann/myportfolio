@@ -1,0 +1,52 @@
+.myname {
+     font-size: 70px;
+
+}
+ 
+.header1{
+      font-size: 70px;
+}
+
+.icon{
+      font-size: 40px;
+}
+
+.description {
+      font-size: 50px;
+}
+
+.flex{
+       background: url('../../../public/images/banner.png');
+       background-size: cover;
+}
+ 
+
+@media only screen and (max-width: 667px) {
+
+     /* For mobile phones: */
+     .myname {
+          font-size: 40px;
+
+     }
+     .header1 {
+          font-size: 40px;
+
+     }
+     .icon {
+           font-size:large;
+     }
+     .description{
+           font-size: 20px;
+     }
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
